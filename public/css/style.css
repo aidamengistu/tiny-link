@@ -1,0 +1,26 @@
+body{
+  background-color: #FFFFE0;
+  color: #483D8B;
+}
+
+/*h3{
+  text-align: center;
+}*/
+
+.btn{
+  background-color: #483D8B;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #8FBC8F;
+}
+
+.footer{
+  text-align: center;
+  font-size: 12px;
+}
+
+.taco {
+  width: 230px;
+}

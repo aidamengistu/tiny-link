@@ -1,0 +1,17 @@
+<% include partials/header %>
+
+<div class="container">
+  <form action="/links" method="post">
+    <div class="form-group">
+      <label>Enter a link to shorten:</label>
+      <input type="text" class="form-control" name="link" placeholder="Post a link">
+    </div>
+    <div class="btn-group btn-group-md" role="group">
+      <button type="submit" class="btn btn-default taco" value="Submit link">
+        <span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+      </button></div>
+    </form>
+  </div>
+
+
+  <% include partials/footer %>
